@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>HIIII!</title>
+</head>
+<body>
+<h1>Enter Your Credentials</h1>
+Name:<input type="text" id="n1" ></input>
+<br></br>
+Password:<input type="text" id="n2" ></input>
+<br></br>
+<button id="click">LOGIN!</button>
+<script>
+function demo() {
+var name=document.getElementById("n1").value;
+var pass=document.getElementById("n2").value;
+if(name=="raj"&&pass=="12Id")
+{
+console.log("Welcome Raj");
+}
+else
+{
+console.log("Spammer!");
+}
+}
+document.getElementById("click").addEventListener("click",demo);
+</script>
+</body>
+</html>
